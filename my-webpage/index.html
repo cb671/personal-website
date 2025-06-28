@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal webpage for Cory M.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cory M. | Personal Webpage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="static/IMG_9345.jpeg" alt="Cory M." class="hero-img">
+        <div class="about-box" id="about">
+            <h1>Cory Mason Brown</h1>
+            <p>Motivated and resourceful Computer Science student with a strong foundation in software 
+            development and project management. I am passionate about applying my skills in real-world 
+            problem-solving, with a particular focus on leading innovative tech projects that enhance user 
+            experience. </p>
+        </div>
+    </section>
+   
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-favourites-row">
+                <div class="projects-box">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <img src="static/ibm.PNG" alt="Project 1">
+                            <h3>IBMSkills Build Webapp</h3>
+                        </div>
+                        <div class="project-card">
+                            <img src="static/homepage.PNG" alt="Project 2">
+                            <h3>Premier League Football Refereeing Analysis</h3>
+                        </div>
+                        <div class="project-card">
+                            <img src="static/grad.PNG" alt="Project 3">
+                            <h3>Wildfire Detection from Satellite Imagery</h3>
+                        </div>
+                        <div class="project-card">
+                            <img src="static/game.PNG" alt="Project 4">
+                            <h3>2D Top Down Game</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="favourites-box">
+        <h3>My Favourite Things</h3>
+            <ol class="favourites-list">
+                <li>Football</li>
+                <li>Technology</li>
+                <li>M & Ms</li>
+                <li>Pablos</li>
+                <li>Shoes</li>
+            </ol>
+    </div>
+    <section class="contact-table-row">
+        <div class="contact-box">
+            <form id="contact-form">
+                <h2>Say Hi!</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Say Hi!</button>
+            </form>
+        </div>
+        <div class="table-box">
+            <h2>Education</h2>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>School</th>
+                        <th>Level</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022-25</td>
+                        <td>University of Leicester</td>
+                        <td>Computer Science Bsc</td>
+                        <td>2:1</td>
+                    </tr>
+                    <tr>
+                        <td>2020-22</td>
+                        <td>Bexleyheath Academy</td>
+                        <td>A Levels</td>
+                        <td>D*, B, B</td>
+                    </tr>
+                    <tr>
+                        <td>2015-20</td>
+                        <td>Bexleyheath Academy</td>
+                        <td>GCSEs</td>
+                        <td>7,8,9s</td>
+                    </tr>
+                    <tr>
+                        <td>2013-205</td>
+                        <td>Belvedere Junior School</td>
+                        <td>Primary</td>
+                        <td>Passed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Cory M. | <a href="#about">Back to top</a></p>
+    </footer>
+</body>
+</html>
